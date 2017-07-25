@@ -61,12 +61,12 @@ p{
 }
 
 a:link{
-  color: blue;
+  color: green;
 	text-decoration: none;
 }
 
 a:visited{
-  color: blue;
+  color: green;
 	text-decoration: none;
 }
 
@@ -129,4 +129,51 @@ footer p {
 	width: 32px;
 	display: inline-block;
 	background: url("../img/sociais.png") no-repeat -45px 0;
+}
+
+/* CSS para index */
+
+header{
+  position: relative;
+}
+
+.sacola {
+  background: url("../img/sacola.png") no-repeat;
+  text-align: right;
+  width: 8.750em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu-principal ul {
+	list-style-type: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.menu-principal ul li {
+	padding: 0.313em;
+	display: inline;
+}
+
+.menu-principal a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.busca{
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 0.625em;
+  padding-bottom: 0.625em;
+  width: 14.375em;
+  float: left;
+}
+
+.menu-departamento{
+clear: both;
+margin-top: 10px;
+padding-bottom: 10px;
 }
