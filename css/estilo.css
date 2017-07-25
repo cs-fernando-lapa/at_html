@@ -1,0 +1,26 @@
+@import url('reset.css');
+
+body{
+  font-family: "Times New Roman", Georgia, Serif;
+  font color: black;
+  background-image: url("../img/background.png");
+}
+
+#container{
+  margin: auto;
+  width: 58.750em;
+}
+
+h1{
+  height: 8.375em;
+  width: 8.125em;
+  display: block;
+  text-indent: -624.938em;
+  background-image: url("../img/logo_gk.png");
+  margin-left: 2.500em;
+}
+
+h2{
+  border-bottom: 0.125em black;
+  margin-top: 1.875em;
+}
