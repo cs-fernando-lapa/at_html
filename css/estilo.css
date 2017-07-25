@@ -84,13 +84,13 @@ footer{
 }
 
 footer p {
-  
+  text-align: center;
   color: white;
 }
 
 #imagemRodape{
   margin-left: 2.188em;
-  margin-top: 10px;
+
 }
 
 .caixa-footer ul {
