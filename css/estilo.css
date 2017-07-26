@@ -81,6 +81,7 @@ footer{
   margin-left: 0;
   margin-right: 0;
   background-image: url("../img/fundo-rodape.png");
+  clear: both;
 }
 
 footer p {
@@ -90,6 +91,7 @@ footer p {
 
 #imagemRodape{
   margin-left: 2.188em;
+  margin-top: 10px;
 
 }
 
@@ -234,7 +236,90 @@ header{
 
 .caixa-destaque{
 	margin-top: 0.625em;
+  margin-bottom: 10px;;
 }
 
 
+
 /* CSS para Produtos - Novidades e mais vendidos */
+
+.paineis {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.paineis h2{
+  font-style: normal;
+  font: bold Serif;
+  text-transform:uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.paineis h2:before {
+  content: '\2756';
+  padding-right: 5px;
+  opacity: 0.4;
+}
+
+.painelNovidades {
+  width: 445px;
+  float: left;
+  background-color: #f5dcdc;
+  background: linear-gradient(#f5dcdc, #bebef4);
+  box-shadow: 5px 5px 5px #888888;
+  margin-bottom: 15px;
+}
+
+
+.maisVendidos{
+  width: 445px;
+  float: right;
+  background-color: #dcdcf5;
+  background: linear-gradient(#dcdcf5, #f4bebe);
+  box-shadow: 5px 5px 5px #888888;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.paineis ol li{
+  display: inline-block;
+  vertical-align: top;
+  height: 140px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  -webkit-transition:	all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+
+.paineis a{
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+}
+
+.paineis a:hover{
+  box-shadow: 5px 5px 5px #888888;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
+.paineis figure, .paineis figcaption{
+	margin:0;
+	padding: 0;
+}
