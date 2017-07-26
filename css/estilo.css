@@ -173,7 +173,65 @@ header{
 }
 
 .menu-departamento{
-clear: both;
-margin-top: 10px;
-padding-bottom: 10px;
+  clear: both;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-departamento li{
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 0.313em 0.625em;
+}
+
+.menu-departamento a{
+  color: grey;
+  text-decoration: none;
+}
+
+.menu-departamento li ul{
+	display: none;
+}
+
+.menu-departamento li:hover ul{
+	display: block;
+}
+
+.menu-departamento ul ul li{
+  background-color: #dcdcdc;
+}
+
+.menu-departamento li li a:before{
+    content: '\279B';
+    padding-right: 3px;
+}
+
+.busca h2 {
+	margin: 0.625em;
+}
+.busca form {
+	margin: 0.625em;
+}
+
+.busca nav {
+	margin: 0.625em;
+}
+
+.busca{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type='search']{
+  height: 25px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.caixa-destaque{
+	margin-top: 0.625em;
 }
