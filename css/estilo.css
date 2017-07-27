@@ -284,19 +284,22 @@ header{
   margin-right: 10px;
 }
 
-.paineis ol li{
-  display: inline-block;
-  vertical-align: top;
-  height: 140px;
-  margin: 10px;
-  margin-left: 40px;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  -webkit-transition:	all 0.7s ease-out;
+
+.paineis li{
+	display: inline-block;
+	vertical-align: top;
+	height: 8.750em;
+	margin: 0.625em;
+  margin-bottom: 20px;
+	margin-left: 40px;
+	padding-bottom: 0.625em;
+	-webkit-transition:	all 0.7s ease-out;
 	-moz-transition: all 0.7s ease-out;
 	-o-transition: all 0.7s ease-out;
 	transition: all 0.7s ease-out;
+
 }
+
 
 .paineis a{
 	color: #333;
@@ -304,7 +307,7 @@ header{
 	text-decoration: none;
 }
 
-.paineis a:hover{
+.paineis li:hover{
   box-shadow: 5px 5px 5px #888888;
   background-color: white;
   opacity: 0.8;
@@ -322,4 +325,65 @@ header{
 .paineis figure, .paineis figcaption{
 	margin:0;
 	padding: 0;
+}
+
+#contato form input[type=text], #contato [type=email], #contato select, #contato textarea {
+    width: 100%;
+    padding: 0.750em;
+    border: 0.063em solid #ccc;
+    border-radius: 0.250em;
+    box-sizing: border-box;
+    margin-top: 0.375em;
+    margin-bottom: 1.000em;
+    margin-left: 0.625em;
+    resize: vertical;
+}
+
+
+#contato input[type=submit] {
+
+    color: white;
+    padding: 0.750em 1.250em;
+    border: none;
+    border-radius: 0.250em;
+    cursor: pointer;
+    margin-left: 0.938em;
+}
+
+
+#contato input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contato label {
+	margin-left: 0.938em;
+}
+form{
+	margin-top: 15px;
+}
+
+table, tr, td{
+	border: 0.063em black solid;
+}
+
+tr, td{
+	margin: 0.625em;
+	padding: 0.625em;
+	text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+
+textarea{
+	height: 200px;
 }
