@@ -387,3 +387,21 @@ tr:nth-child(even){
 textarea{
 	height: 200px;
 }
+
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+body, img{
+     margin: 0 auto;
+     position: relative;
+     max-width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+body {
+     margin: 0 auto;
+     position: relative;
+     max-width: 100%;
+    }
+}
