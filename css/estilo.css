@@ -14,11 +14,13 @@ body{
 h1{
   height: 8.375em;
   width: 8.125em;
-  display: block;
+  display: inline-block;
   text-indent: -624.938em;
-  background-image: url("../img/logo_gk.png");
+  background-image: url(../img/logo_gk.png);
   margin-left: 2.500em;
 }
+
+
 
 h2{
   border-bottom: solid 0.125em black;
@@ -386,7 +388,6 @@ tr:nth-child(even){
 textarea{
 	height: 200px;
 }
-
 
 @media screen and (max-width: 480px) {
       #container{
