@@ -1,0 +1,41 @@
+1) Quando é recomendando a criação de um site separado para mobile? Seria
+este o caso deste site da GK Fashion?
+
+É recomendado um segundo site, quando a performance deve ser levada em conta, e caso o site tenha sido desenvolvido primeiramente só pensando em Desktop.
+Também é correto afirmar que a velocidade de leitura de uma site responsivo é muito maior, e se levado em consideração a velocidade na internet no Brasil, como a 3G/4G todos os sites deveriam ser 
+separados.
+
+No caso da GK Fashion, por se tratar de um site de vendas, a lentidão pode acarretar na desistência de um cliente em comprar o produto, nesse caso acredito que seria mais eficiente
+o desenvolvimento de um site separado para mobile, apenas acrescentando o m.gkfashion.com.br na regra do DNS para redirecionamento.
+
+
+2) No caso de um CSS específico para print, como ele deve ser inserido?
+
+Criando um css e linkando como é feito o link das media queries. 
+No css utiliza o @media print {
+   …
+}
+E no index.html utiliza:
+    
+<link rel="stylesheet" media=“print” href="css/mobile.css">
+
+
+3) O autoplay é um atributo que carrega o áudio assim que o usuário entra na página.
+Type - onde informamos o tipo de mídia.
+Media - comunica ao navegador qual o type.
+src - diretório do arquivo.
+
+4)Atributos
+
+src - diretório do arquivo.
+track - diretório da legenda. 
+type - tipo de mídia.
+
+5)Utilização de API`s. Utilizando API conseguimos acessar outros “programas”, que nos permitem realizar outras funcionalidades, como animação.
+O método mais comum de utilizar chamadas de API em html é o xmlHttpRequest, podendo utilizar node.js, JS, Python e etc.
+	
+ 
+
+
+
+
