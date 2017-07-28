@@ -172,6 +172,8 @@ header{
   padding-bottom: 0.625em;
   width: 14.375em;
   float: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .menu-departamento{
@@ -219,10 +221,7 @@ header{
 	margin: 0.625em;
 }
 
-.busca{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
+
 
 .busca input {
   vertical-align: middle;
@@ -389,19 +388,48 @@ textarea{
 }
 
 
-@media screen and (min-width: 200px) and (max-width: 320px) {
-body, img{
-     margin: 0 auto;
-     position: relative;
-     max-width: 100%;
+@media screen and (max-width: 320px) {
+      #container{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+      }
 
-    }
-}
+      header{
+        position: relative;
+      }
+      figure{
+        max-width: 100%;
+        position: relative;
+      }
+      img{
+        position: relative;
+        max-width: 100%;
+      }
+      .sacola{
+        position: relative;
+        max-width: 100%;
+        float: right;
+        margin-left: 10px;
+      }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
-body {
-     margin: 0 auto;
-     position: relative;
-     max-width: 100%;
-    }
+
+      .menu-principal ul li{
+        display: block;
+        padding: 5px;
+        max-width: 100%;
+      }
+      .busca{
+        float: none;
+        max-width: 100%;
+        width: 100%;
+      }
+      .busca img {
+        max-width: 100%;
+      }
+      .paineis section{
+        max-width: 100%;
+        float: none;
+      }
+
 }
