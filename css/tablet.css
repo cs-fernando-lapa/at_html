@@ -1,0 +1,57 @@
+@media screen and (min-width: 321px) (max-width: 480px) {
+      #container{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+      }
+
+      header{
+        position: relative;
+      }
+
+      .item-sacola {
+        width: 100%;
+        text-align: center;
+      }
+
+      header h1 {
+        margin-left: 100px;
+      }
+
+      figure{
+        max-width: 100%;
+        position: relative;
+      }
+      img{
+        position: relative;
+        max-width: 100%;
+      }
+      .sacola{
+        position: relative;
+        display: inline-block;
+        max-width: 100%;
+        margin-left: 10px;
+      }
+
+      .menu-principal ul{
+        position: relative;
+      }
+      .menu-principal ul li{
+        display: block;
+        padding: 5px;
+        max-width: 100%;
+      }
+      .busca{
+        float: none;
+        max-width: 100%;
+        width: 100%;
+      }
+      .busca img {
+        max-width: 100%;
+      }
+      .paineis section{
+        max-width: 100%;
+        float: none;
+      }
+
+}

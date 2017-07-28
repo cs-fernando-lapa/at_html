@@ -6,11 +6,11 @@
   	<meta name="keywords" content="GK Fashion, roupas, verão, inverno, coleções" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" media="screen and (max-width: 320px)" href="css/estilo.css" />
+    <link rel="stylesheet" media="screen and (max-width: 320px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width:321px) (max-width: 480px)" href="css/tablet.css" />
     <link rel="stylesheet" href="css/estilo.css">
-
       <!‐‐[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
       <![endif]‐‐>
     <title>GK FASHION</title>
   </head>
@@ -19,7 +19,9 @@
 
       <header>
         <h1> GK FASHION</h1>
-        <p class="sacola"> Nenhum item na sacola de compras</p>
+        <div class="item-sacola">
+          <p class="sacola"> Nenhum item na sacola de compras</p>
+        </div>
 
         <nav class="menu-principal">
           <ul>

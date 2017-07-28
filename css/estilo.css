@@ -388,7 +388,7 @@ textarea{
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
       #container{
         margin: 0 auto;
         width: 100%;
@@ -398,6 +398,16 @@ textarea{
       header{
         position: relative;
       }
+
+      .item-sacola {
+        width: 100%;
+        text-align: center;
+      }
+
+      header h1 {
+        margin-left: 100px;
+      }
+
       figure{
         max-width: 100%;
         position: relative;
@@ -408,12 +418,14 @@ textarea{
       }
       .sacola{
         position: relative;
+        display: inline-block;
         max-width: 100%;
-        float: right;
         margin-left: 10px;
       }
 
-
+      .menu-principal ul{
+        position: relative;
+      }
       .menu-principal ul li{
         display: block;
         padding: 5px;
